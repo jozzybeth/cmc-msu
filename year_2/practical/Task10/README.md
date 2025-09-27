@@ -21,7 +21,7 @@
           for (id E| + E| - E| not E| num E| str_const E ;    
                id E| + E| - E| not E| num E| str_const E ;  
                id E| + E| - E| not E| num E| str_const E) O1 |  
-          read(id); | write(E {,E}); | id E; | num E; | str_const E; | ~{ O | ;   
+          read(id); | write(E {,E}); | id E; | num E; | str_const E; | [ O | ;   
     E -> E_OR { = E}  
     E_OR -> E_AND { or E_AND}  
     E_AND -> E_R { and E_R}  
@@ -45,6 +45,7 @@
     Executer.cpp, Executer.h: этап выполнения.  
 
  
+
 
 
 
