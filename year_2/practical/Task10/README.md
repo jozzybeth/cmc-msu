@@ -12,11 +12,11 @@
     {} - повторение конструкций.  
     [] - фигурные скобки - терминалы.  
 
-    P -> program ~{D O @  
+    P -> program [D O @  
     D -> {int D1;| real D1; | string D1;} | eps  
     D1 -> D2 {,D2}  
     D2 -> id = "str_const" | id = +num | id = -num | id  
-    O -> O1 O| }~  
+    O -> O1 O| ]  
     O1 -> if (E) O1 else O1 | while (E) O1 | continue; |  
           for (id E| + E| - E| not E| num E| str_const E ;    
                id E| + E| - E| not E| num E| str_const E ;  
@@ -45,5 +45,6 @@
     Executer.cpp, Executer.h: этап выполнения.  
 
  
+
 
 
