@@ -1,0 +1,35 @@
+/* в комментарии неверные тесты */
+program {
+	int a, i, c = 4, b = 4;
+	/*real b = 4.3; */
+	/*string c;*/
+	real d = 5.7; 
+	real e = 5.7;
+	/* string d; */ 
+	a = c + b - 1;
+;
+	/* if (d)
+ 	{
+		a = a + 1;
+	} */
+	/*a = b + i = h; */ 
+	/* b = a = i; */
+	/*while (a != 7)
+	{
+	    write("Х");	
+	    a = a + 1;
+	    b = b + 3;
+
+
+	} */
+	for (i = 1; i < 6; i = i + 1)
+	{
+	    write("Hello", i + 1); 
+	};
+	if (d == c)
+	    write("Yes");
+	else
+            write("No");
+
+	write("Значение а = ", a);
+}

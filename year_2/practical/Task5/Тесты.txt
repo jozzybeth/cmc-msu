@@ -1,0 +1,19 @@
+(пустая строка)
+cd ..
+pwd
+echo homedir: $HOME username: $USER
+cd
+pwd > fpwd.txt
+cat < file_in.txt > file_out.txt
+cat < file_in.txt >> file_out.txt
+cat < /dev/urandom | head -c 4096 > "file.bin"
+pwd | cat >> my_home.txt
+yes | yes | yes | yes | sleep 10 | pwd
+pwd; pwd | cd ..| wc ; pwd
+sleep 10; pwd
+sleep 5 & sleep 5 & sleep 5 & sleep 5 & sleep 5 &
+echo a b c > f; cat f & ls
+echo a b c > f; echo 3 5 >> f; cat < f
+cat f; date; pwd > zz
+cat nosuchname && pwd
+cat nosuchname || pwd

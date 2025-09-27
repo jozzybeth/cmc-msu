@@ -1,0 +1,20 @@
+/* в комментарии неверные тесты */
+program
+{
+   /* int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa; */
+   /* int 45q; */
+   /* int a#b; */
+    int numb = 0;
+    real a = 5, b;
+    while (numb != 5){
+        a = 5;
+        /*b > 6; */
+        
+    }
+    b = 1 + (a = 3);;
+    1+2;
+
+    for(a = 5; b < a; a = a - 1)
+        read(a);
+
+}

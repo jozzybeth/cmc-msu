@@ -1,0 +1,38 @@
+/* в комментарии неверные тесты */
+program {
+  int a = 51, b = 6, c, d;
+  string x = "abcd", y, z = "abcd";
+  c = (a + b) * 2;
+  write(c);
+  if (c >= 100)
+  {
+    read (y);
+   /* read(x + y); */
+    write (y);
+    write (x + z, c);
+  }
+  else 
+	c = a = 21; 
+
+  while (c > 100)
+  {
+    c = c - 5;
+    write (c);
+    x = x + "step";
+  }
+  write (x); 
+  ;
+  /* 1 = 1; */ 
+  /* a = b + c = d; */ 
+  while (c > 100)
+  {
+	write(c);
+	x = x + "step";
+  	if (c == 25)
+	    continue; 
+	else
+	   c = c - 5; 
+ }
+ /* continue; */
+}
+
